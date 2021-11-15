@@ -1,0 +1,5 @@
+x <- seq(-20, 70)
+ylim <- c(0, 0.1)
+plot(x, dnorm(x, mean = 20, sd = 15), type = 'l', col = 2, ylim = ylim)
+par(new = T)
+plot(x, dnorm(x, mean = 50, sd = 5), type = 'l', col = 3, ylim = ylim)
